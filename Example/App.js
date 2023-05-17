@@ -16,9 +16,6 @@ export default class App extends Component {
     if (Platform.OS === 'android') {
       Synthesizer.init("57c7c5b0");
       Recognizer.init("57c7c5b0");
-    } else if (Platform.OS === 'ios') {
-      Synthesizer.init("59a4161e");
-      Recognizer.init("59a4161e");
     }
 
     this.state = {
